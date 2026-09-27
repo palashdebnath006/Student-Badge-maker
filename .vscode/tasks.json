@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Full Stack (Server + Client)",
+      "type": "shell",
+      "command": "npm run dev",
+      "isBackground": true,
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "new",
+        "clear": false
+      }
+    },
+    {
+      "label": "Start Backend Server Only",
+      "type": "shell",
+      "command": "npm run server",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Start Frontend Client Only",
+      "type": "shell",
+      "command": "npm run client",
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "Install All Dependencies",
+      "type": "shell",
+      "command": "npm run install:all",
+      "problemMatcher": []
+    }
+  ]
+}

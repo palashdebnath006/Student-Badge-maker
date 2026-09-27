@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Jane Doe",
+    "department": "Electrical Engineering",
+    "roll": "2025EE101",
+    "password": "pass123",
+    "photo": "1789286117953-85944333.jpg",
+    "registeredAt": "2026-09-13T07:55:17.959Z"
+  },
+  {
+    "id": 2,
+    "name": "Palash Debnath",
+    "department": "Information Technology",
+    "roll": "EU1234008",
+    "password": "Palash1101",
+    "photo": "1789286547590-572990705.jpg",
+    "registeredAt": "2026-09-13T08:02:27.645Z"
+  },
+  {
+    "id": 3,
+    "name": "Prasad Patil",
+    "department": "Information Technology",
+    "roll": "EU1234009",
+    "password": "Prasad123",
+    "photo": "1789451341842-964303070.webp",
+    "registeredAt": "2026-09-15T05:49:01.903Z"
+  }
+]
